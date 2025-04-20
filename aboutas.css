@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background:linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.8)), url(./cov2.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    width: auto;
+    height: 100vh;
+
+}
+
+.logo{
+    width: 83px;
+    height: 57px;
+    opacity: 0.9;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top:2px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.534);
+}
+
+ul li{
+    display: inline-block;
+    margin-right: 15px;
+    margin-top:15px;
+    cursor: pointer;
+    font-size: 20px;
+    text-shadow: 0 3px 3px  rgb(161, 159, 159);
+    color: white;
+    
+}
+
+ul li:hover{
+  color:  rgb(255, 175, 63);
+  border-bottom: solid 2px white ;
+  transition:linear;
+  transition-duration: 0.3s;
+  text-shadow:none;
+
+  
+}
+
+
+
+img{
+    border-radius: 10px;
+    opacity: 0.7;
+    margin-top: 15px;
+    align-self: center;
+   
+}
+
+.perant{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items:center;
+    justify-content: space-evenly;
+    height: 84%;
+    flex-wrap: wrap;
+}
+h3{
+    color:white;
+    align-self: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+
+span {
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+a{
+    align-self: center;
+    color: white;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:  rgba(102, 64, 10, 0.562);
+    height: 6.5%;
+    margin-bottom: -16px;
+    flex-wrap: wrap;
+
+    
+}
+
+p{
+    align-self: center;
+    font-weight: bold;
+    margin-right: 90px;
+    
+
+}

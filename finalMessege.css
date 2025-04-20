@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)), url(./final.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    width: auto;
+    height: 100vh;
+}
+
+.logo{
+    width: 83px;
+    height: 57px;
+    opacity: 0.9;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top:5px;
+
+}
+
+form{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+h2{
+    letter-spacing: 1px;
+    font-weight: bold;
+    align-self: center;
+    transform: translateY(50px);
+    align-self: center;
+    text-align: center;
+    font-size: 25px;
+    color: #f9f9f9ad;
+    margin-bottom: -50px;
+    text-shadow: 0 2px 3px black;
+
+    
+}
+
+
+
+input{
+    width: 200px;
+    align-self: center;
+    justify-self: center;
+    height: 32px;
+    border-radius: 2px;
+    background-color: #9d9d9d7a;
+    border: none;
+    text-align: center;
+    color:#593808;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+button{
+    width: 200px;
+    justify-self: center;
+    font-size: 20px;
+    padding: 4px;
+    color: #593808;
+    background-color:transparent;
+    margin-top: -250px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    border: solid 2px #593808;
+    box-shadow: 0 15px 10px black inset;
+}

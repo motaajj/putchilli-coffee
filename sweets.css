@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(./cov5.jpg);
+    width: 100%;
+    height:110vh auto;
+    color: brown;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    width: 83px;
+    height: 57px;
+    opacity: 0.9;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top:2px;
+    margin-left: 10px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.534);
+    position:sticky;
+   
+}
+
+ul{
+    margin-right: 10px;
+}
+
+ul li{
+    display: inline-block;
+    margin-top:15px;
+    cursor: pointer;
+    font-size: 20px;
+    text-shadow: 0 3px 3px  rgb(161, 159, 159);
+    color: white;
+    margin-right: 10px;
+    
+    
+}
+
+ .list:hover{
+  color:  rgb(255, 175, 63);
+  border-bottom: solid 2px white ;
+  transition:linear;
+  transition-duration: 0.3s;
+  text-shadow:none;
+
+  
+}
+
+.chose-item{
+ display: flex;
+ align-items: flex-start;
+ margin-bottom: 10px;
+ 
+}
+
+.item-one,
+.item-two,
+.item-three{
+text-align-last: none;
+background-color: rgb(255, 175, 63);
+color:black;
+text-shadow: 0 3px 3px  rgb(255, 253, 253);
+font-weight: bold;
+font-size: 20px;
+text-align: center;
+padding: 6px;
+border-radius: 8px;
+
+
+}
+
+
+.item-three{
+    background-color: transparent;
+    color: white;
+    text-shadow: none;
+    border: solid 1px white;
+    text-shadow: 0 1px 1px rgb(255, 175, 63);
+}
+
+
+
+
+article{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:  auto;
+    margin: 15px 20px 10px 20px;
+    flex-wrap:wrap;    
+}
+
+section{
+    width:200px;
+    height: auto;
+    background-color:transparent;
+    border: solid 1px  rgb(255, 175, 63);
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+    padding: 4px 10px 10px 10px;
+    animation: bore 5s infinite alternate none ease-in-out;
+    margin-bottom: 10px;
+    transition:linear;
+    transition-duration: 0.3s;
+    
+}
+
+section:hover{
+    transition:linear;
+    transition-duration: 0.3s;
+    transform:scale(1.15);
+    background-color: rgba(0, 0, 0, 0.842);
+}
+
+@keyframes bore{
+  0%{ border: solid 1px  rgba(255, 255, 255, 0.521);}
+30%{ border: solid 1px  rgb(255, 175, 63);}
+50%{    border: solid 1px  rgb(153, 93, 9);}
+80%{ border: solid 1px  rgb(58, 35, 3);}
+100%{ border: solid 1px  rgb(0, 0, 0);}
+
+
+}
+
+.colds{
+    width: 148px;
+    height: 178px;
+    border-radius: 10px;
+    align-self: center;
+    justify-self: center;
+    padding-top: 5px;
+  
+
+}
+
+label{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-size: auto;
+}
+
+span{
+    
+    text-align: center;
+    font-size: 19px;
+    font-weight: 500;
+    color: rgb(255, 175, 63);
+    margin-bottom: 5px;
+
+}
+
+.price-input{
+    text-align: center;
+    height: 25px;
+    width: auto;
+    color:rgb(255, 175, 63);
+    background-color: transparent;
+    border-radius: 0 10px 0 10px;
+}
+
+button{
+    font-size: 16px;
+    margin-top: 10px;
+    width: xauto;
+    align-self: center;
+    box-shadow: 5px 0 9px rgb(255, 175, 63) inset;
+    border-radius: 0 10px 0 10px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    animation: btn 5s infinite alternate none ease-in-out;
+
+}
+
+
+@keyframes btn {
+    0%{ box-shadow:  5px 0 9px  rgba(255, 255, 255, 0.521) inset;}
+    30%{ box-shadow:  5px 0 9px  rgb(255, 175, 63) inset;}
+    50%{ box-shadow:  5px 0 9px  rgb(153, 93, 9) inset;}
+    80%{ box-shadow: 5px 0 9px  rgb(58, 35, 3)inset;}
+    100%{ box-shadow:  5px 0 9px  rgb(0, 0, 0) inset;}
+    
+}
+
+#search{
+    width: 156px;
+    height: 26px;
+    align-self: center;
+    background-color: white;
+    border: solid 1px white;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    border: solid 2px  rgb(153, 93, 9) ;
+
+}
+
+#search::placeholder{
+    font-weight: bold;
+    font-size: 17px;
+
+
+}

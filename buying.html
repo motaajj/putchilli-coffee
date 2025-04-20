@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buying</title>
+    <link type="text/css" href="buying.css" rel="stylesheet">
+</head>
+<body>
+    
+    <img src="./Logo 500x500 px.jpeg" class="logo">
+    <article class="perant">
+    
+    <div class= "cridt-card">
+        <img src="./bank_logo_1-removebg-preview.png" class="bank-logo">
+        <img src="mda-removebg-preview.png" class="mada">
+        <img src="./cc-removebg-preview (2).png" class="cc">
+        <img src="./visa-logo-800x450-removebg-preview.png" class="visa-logo">
+        <p class="number-of-cart">XXXX XXXX XXXX XXXX</p>
+        <p class="date">XX/XX</p>
+        <p class="name">XXXXXXX XXX</p>
+
+    </div>
+    
+    <form id="info" method="get" action="./finalMessage.html">
+        <p class="topName">insert your credit card info</p>
+        <div class="inputs">
+
+        <input type="text" placeholder="1234 **** **** **** " class="number-input" maxlength="16" required>
+        <label for="number-input">Number Of Cridit</label>
+
+        <input type="text" placeholder="MOHAM **** " class="number-input" maxlength="11" required>
+        <label for="name-cridit">Name</label>
+
+        <input type="text" placeholder="* */ * *" class="number-input" maxlength="4" required>
+        <label for="name-cridit">Date Of End</label>
+
+        <input type="text" placeholder="***" class="number-input" maxlength="3" required>
+        <label for="name-cridit" >Password</label>
+
+       <select id="banks"> 
+        
+        <option value="- please choose one -">- please choose one -</option>
+        <option value="AL-rajhi">AL-rajhi</option>
+        <option value="AL-ahly">AL-ahly</option>
+        <option value="AL-enmaa">AL-enmaa</option>
+    
+       </select>
+        <label for="name-cridit">Name of Bank</label>
+        <aside class="location">Click to get your location</aside>
+        <label for="name-cridit">your location please</label>
+
+
+        
+    </div>
+    <div class="buttons">
+    <button class="Buy" title="">Buy Now</button>
+</div>
+<p class="cash"> if you want to buy cash <span>click  here now </span></p>
+    
+
+
+</form>
+</article>
+   <script src="buying.js"></script> 
+
+</body>
+</html>

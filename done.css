@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+svg{
+    color: wheat;
+    align-self: center;
+    width: 500px;
+    height: 200px;
+    justify-self: center;
+    margin-top: -100px;
+}
+
+div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h3{
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+button{
+    font-size: 20px;
+    width: 257px;
+    height: 43px;
+    border-radius: 7px;
+    font-weight: bold;
+    align-self: center;
+    background-color: #cbcbcb;
+    cursor: pointer;
+
+}
+
+a{
+    justify-self: center;
+    margin-top: -100px;
+
+
+}
